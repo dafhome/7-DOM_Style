@@ -28,7 +28,7 @@ function miMascota(){
 
     else if (miMascota.toLowerCase() == "pajaro" || miMascota.toLowerCase() == "bird" ){
         imagenMascota.src = "/images/pajaro.png";
-        imagenMascota.style = "visibility:visible";
+        imagenMascota.style = "visibility:visible; transform: rotateY(-180deg)";
         texto.innerHTML = "Tu Pajaro, mejor te traigo al pajaro en una jaula 🐥";
         tienda.style = "filter: grayscale(90%)"
     }
@@ -42,6 +42,6 @@ function miMascota(){
 }
 function volverTienda(){
     imagenMascota.style = "visibility:hidden";
-    texto.innerHTML = "¿Que mascota elegirás?";
+    texto.innerHTML = "🐶 🐈 ¿Que mascota elegirás? 🐥 🐹";
     tienda.style = "filter: grayscale(0%)"
 }
