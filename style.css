@@ -1,0 +1,22 @@
+.title{
+    color: white;
+}
+.tienda{
+    width: 600px;
+    height: 600px;
+    background-image: url(/images/la-tienda-de-animales.png);
+    background-size: cover;
+}
+.container-mascota{
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+#mimascota{
+    visibility:hidden;
+    position: absolute;
+    top: 300px;
+}
+.tienda{
+    position: relative;
+}
